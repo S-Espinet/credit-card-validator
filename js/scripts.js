@@ -1,11 +1,12 @@
-function cardMath(number) {
-  console.log("Function");
-  if (isNaN(number)) {
-    console.log("branch");
+function cardMath(ccNumber) {
+  if (isNaN(ccNumber)) {
     return false;
-  console.log("boolean");
   }
-  else {
-    return true;
-  }
+
+  console.log(ccNumber);
+  let ccNumberArray = Array.from(ccNumber);
+  
+  
+  
+  console.log(ccNumberArray);
 }
